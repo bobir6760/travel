@@ -65,9 +65,11 @@ export default {
       color: white;
       font-size: 20px;
       font-weight: bold;
+      cursor: pointer;
     }
     .finish-card__image img {
       width: 80%;
+      cursor: pointer;
     }
   }
 }
@@ -80,6 +82,7 @@ export default {
     font-size: 22px;
     font-weight: bold;
     color: #f0c53e;
+    cursor: pointer;
   }
   .finish-body__block {
     display: flex;
@@ -99,10 +102,15 @@ export default {
       border: none;
       font-size: 16px;
       color: white;
-      background: linear-gradient(105.5deg, #ee5060 19.57%, #b25a59 78.85%);
+      background: linear-gradient(105.5deg, #ee5060 9.57%, #b25a59 55.85%);
     }
     .Finish-btn:active {
       color: #f0c53e;
+    }
+      .Finish-btn:hover {
+        transition: 0.7s;
+        background: black;
+        border-radius: 5px;
     }
   }
 }
@@ -111,15 +119,18 @@ export default {
   flex-direction: column;
   text-align: center;
   gap: 20px;
+  cursor: pointer;
   .finish-text__title {
     display: flex;
     font-size: 20px;
     gap: 30px;
+    cursor: pointer;
     color: #f0c53e;
   }
   .finish-card__subtitle {
     font-size: 20px;
     color: #f0c53e;
+    cursor: pointer;
   }
 }
 @media screen and (max-width: 576px) {

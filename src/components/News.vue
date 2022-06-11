@@ -97,6 +97,7 @@ export default {
     font-size: 25px;
     color: #7f2736;
     font-weight: bold;
+    cursor: pointer;
   }
   .news-info__subtitle {
     font-size: 20px;
@@ -110,24 +111,27 @@ export default {
     color: #7f2736;
     font-weight: bold;
     font-size: 22px;
+    cursor: pointer;
   }
   .news-block__subtitle {
     font-size: 18px;
   }
   .news-block__text {
     font-size: 20px;
-    letter-spacing: 0.02em;
     text-decoration-line: underline;
     color: #ee5060;
+    cursor: pointer;
   }
 }
 .news-block__image {
   display: flex;
   overflow: hidden;
   border-radius: 20px;
+  cursor: pointer;
 }
 .news-block__image img {
   width: 100%;
+  cursor: pointer;
 }
 .news-btn {
   background: #f0c53e;
@@ -140,6 +144,11 @@ export default {
 }
 .news-btn:active {
   color: white;
+}
+.news-btn:hover {
+  color: white;
+  transition: 0.5s;
+  border-radius: 5px;
   background: #343232;
 }
 .news-item {
@@ -156,9 +165,11 @@ export default {
   display: flex;
   overflow: hidden;
   border-radius: 20px;
+  cursor: pointer;
 }
 .news-item__image img {
   width: 100%;
+  cursor: pointer;
 }
 .news-wrapper__item {
   display: flex;
@@ -172,6 +183,7 @@ export default {
   .news-item__title {
     color: #7f2736;
     font-weight: bold;
+    cursor: pointer;
   }
   .news-item__subtitle {
     font-size: 15px;

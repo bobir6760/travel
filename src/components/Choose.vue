@@ -75,6 +75,7 @@ export default {
   flex-direction: column;
   gap: 20px;
   .choose-info__title {
+    cursor: pointer;
     span {
       color: #7f2736;
     }
@@ -99,6 +100,7 @@ export default {
     color: #7f2736;
     font-size: 22px;
     font-weight: bold;
+    cursor: pointer;
   }
 }
 .choose-wrapper__image {
@@ -107,11 +109,13 @@ export default {
   padding: 5px;
   background: #ee5060;
   border-radius: 30px;
+  cursor: pointer;
 }
 .choose-wrapper__image img {
   object-fit: contain;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .choose-item__subtitle {

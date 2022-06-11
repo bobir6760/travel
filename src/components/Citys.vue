@@ -66,6 +66,7 @@ export default {
 }
 .citys-info__title {
   font-size: 25px;
+  cursor: pointer;
   span {
     color: #7f2736;
   }
@@ -76,6 +77,7 @@ export default {
 }
 .citys-info__image img {
   width: 100%;
+  cursor: pointer;
 }
 .citys-info__item {
   display: flex;
@@ -86,6 +88,7 @@ export default {
   display: flex;
   border-radius: 12px;
   overflow: hidden;
+  cursor: pointer;
 }
 .citys-item {
   display: flex;
@@ -95,9 +98,11 @@ export default {
 .citys-item__title {
   color: #7f2736;
   font-weight: bold;
+  cursor: pointer;
   &:hover {
     font-size: 25px;
     color: #343232;
+    transition: 0.9s;
   }
 }
 @media screen and (max-width: 992px) {

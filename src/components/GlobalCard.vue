@@ -21,13 +21,15 @@ export default {
   cursor: pointer;
   font-size: 12px;
 }
-.globally-btn:active {
-  color: white;
-  background: #571d1d;
+.globally-btn:hover {
+  transition: 0.5s;
+  background-color: black;
+  border-radius: 5px;
 }
 .globally-item__title {
   font-size: 15px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 </style>

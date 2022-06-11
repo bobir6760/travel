@@ -27,36 +27,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="write-block">
-          <div class="write-block__title">
-            Lorem Ipsum is simply dummy text of the printing <br />and
-            typesetting industry. Lorem Ipsum has been the <br />industry's
-            standard dummy text ever since the 1500s,
-          </div>
-          <div class="write-wrapper__block">
-            <div class="write-block__subtitle">Kyiloria Danu</div>
-            <div class="write-block__image">
-              <div class="write-block__item">
-                <div class="write-image">
-                  <img src="@/assets/img/Star 1.svg" alt="" />
-                </div>
-                <div class="write-image">
-                  <img src="@/assets/img/Star 1.svg" alt="" />
-                </div>
-                <div class="write-image">
-                  <img src="@/assets/img/Star 1.svg" alt="" />
-                </div>
-                <div class="write-image">
-                  <img src="@/assets/img/Star 1.svg" alt="" />
-                </div>
-                <div class="write-image">
-                  <img src="@/assets/img/Star 1.svg" alt="" />
-                </div>
-              </div>
-              <div class="write-block__text">12 reviews</div>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
   </div>
@@ -88,17 +58,20 @@ export default {
   .write-info__title {
     font-size: 12px;
     font-weight: bold;
+    cursor: pointer;
   }
   .write-info__subtitle {
     color: #7f2736;
     font-size: 40px;
     font-weight: bold;
+    cursor: pointer;
   }
   .write-info__text {
     display: flex;
     flex-direction: column;
     gap: 15px;
     font-size: 18px;
+    cursor: pointer;
   }
   .write-info__btn {
     padding: 10px 60px 10px 20px;
@@ -109,9 +82,10 @@ export default {
     cursor: pointer;
     font-size: 14px;
   }
-  .write-info__btn:active {
+   .write-info__btn:hover {
     background: #7f2736;
     color: white;
+    transition: 0.9s;
   }
 }
 .write-item {
@@ -125,13 +99,13 @@ export default {
     border-radius: 20px;
     overflow: hidden;
     justify-content: center;
+    cursor: pointer;
   }
 }
 .write-block {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  // position: absolute;
   gap: 50px;
   padding: 20px;
   background: #ffffff;
@@ -140,16 +114,19 @@ export default {
   width: 50%;
   .write-block__title {
     font-size: 20px;
+    cursor: pointer;
   }
 }
 .write-block__image {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
   .write-image img {
     object-fit: contain;
     width: 30px;
     height: 30px;
+    cursor: pointer;
   }
 }
 .write-wrapper__block {

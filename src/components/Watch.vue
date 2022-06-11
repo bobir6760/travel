@@ -46,16 +46,13 @@ $fz: 25px;
   gap: 20px;
   .watch-info__title {
     font-size: 22px;
+    cursor: pointer;
     span {
       color: #7f2736;
-      &:hover {
-        font-weight: bold;
-        font-size: $fz;
-      }
     }
   }
   .watch-info__subtitle {
-    font-size: 15px;
+    font-size: 15px;cursor: pointer;
   }
   .watch-info__text {
     color: #ee5060;
@@ -63,11 +60,14 @@ $fz: 25px;
     &:hover {
       color: #ee5060;
       font-size: $fz;
+      transition: 0.9s;
+      cursor: pointer;
     }
   }
 }
 .watch-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .watch-wrapper__image {
   display: flex;

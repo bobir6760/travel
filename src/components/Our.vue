@@ -69,6 +69,7 @@ $color-1: #7f2736;
   display: flex;
   align-items: center;
   .our-item__title {
+    cursor: pointer;
     span {
       color: $color-1;
     }
@@ -78,6 +79,7 @@ $color-1: #7f2736;
 }
 .our-wrapper__image img {
   width: 90%;
+  cursor: pointer;
 }
 .our-info {
   display: flex;
@@ -108,6 +110,7 @@ $color-1: #7f2736;
   }
   .our-block__image img {
     width: 100%;
+    cursor: pointer;
   }
   .our-block__image {
     padding: 5px;

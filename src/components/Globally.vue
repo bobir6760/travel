@@ -68,6 +68,7 @@ $fz: 25px;
 .globally-info__title {
   font-size: $fz;
   font-weight: bold;
+  cursor: pointer;
   span {
     color: #7f2736;
   }

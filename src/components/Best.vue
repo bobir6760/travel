@@ -75,14 +75,20 @@ $fz: 10px;
 }
 .best-wrapper__title {
   font-size: 40px;
+  cursor: pointer;
   span {
     color: #7f2736;
     font-weight: bold;
   }
 }
+.best-wrapper__title:hover {
+  text-decoration: underline;
+}
 .best-wrapper__subtitle {
   font-size: 20px;
+  cursor: pointer;
 }
+
 .best-wrapper__item {
   display: flex;
   gap: 20px;
@@ -104,12 +110,15 @@ $fz: 10px;
   text-align: center;
 }
 .best-btn:active {
-  font-size: 20px;
-  color: white;
-  background: #343232;
+  color: #f0c53e;
+}
+.best-btn:hover {
+  transition: 0.5s;
+  box-shadow: inset 300px 0 0 0 black;
 }
 .best-item__image img {
   width: 100%;
+  cursor: pointer;
 }
 .best-item__image {
   padding: 11px 9px 5px 17px;
@@ -120,22 +129,26 @@ $fz: 10px;
 }
 .best-item__title {
   font-size: 20px;
+  cursor: pointer;
   &:hover {
     color: #b25a59;
-    font-weight: bold;
+    text-decoration: underline black;
   }
 }
 .best-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .best-wrapper__image {
   padding: 10px;
   background: #ee5060;
   border-radius: 8px;
+  cursor: pointer;
 }
 .best-wrapper__image {
   background: #f0c53e;
   border-radius: 8px;
+  cursor: pointer;
 }
 .best-wrapper__body {
   display: flex;
@@ -153,6 +166,7 @@ $fz: 10px;
 .best-body__title {
   font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
 }
 .best-body__btn {
   padding: 5px 20px;
@@ -166,10 +180,15 @@ $fz: 10px;
 }
 .best-body__btn:active {
   color: white;
-  background: #343232;
+}
+.best-body__btn:hover {
+  transition: 0.7s;
+  background: #f0c53e;
+  color: black;
 }
 .best-wrapper__block {
   margin-bottom: 20px;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .best-wrapper__title {

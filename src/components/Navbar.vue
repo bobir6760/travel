@@ -44,6 +44,7 @@ export default {
 }
 .navbar-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .navbar-wrapper__item {
   display: flex;
@@ -55,9 +56,13 @@ export default {
   font-size: 20px;
   gap: 30px;
 }
+.navbar-wrapper__title p {
+  cursor: pointer;
+}
 .navbar-img img {
   width: 70%;
   padding: 10px;
+  cursor: pointer;
 }
 .navbar-btn {
   display: flex;
@@ -71,14 +76,18 @@ export default {
   cursor: pointer;
 }
 .navbar-btn:active {
-  font-size: 20px;
   color: white;
-  background: #343232;
+  background: #4D4D4D;
+}
+.navbar-btn:hover {
+  transition: 0.3s;
+  box-shadow: inset 47px 0 0 0 black;
 }
 @media screen and (max-width: 992px) {
   .navbar-wrapper__title {
     font-size: 15px;
     gap: 10px;
+    cursor: pointer;
   }
   .navbar-wrapper__item {
     display: flex;
@@ -92,9 +101,11 @@ export default {
   .navbar-img img {
     width: 70%;
     padding: 5px;
+    cursor: pointer;
   }
   .navbar-wrapper__image img {
     width: 80%;
+    cursor: pointer;
   }
   .navbar-wrapper {
     display: flex;
